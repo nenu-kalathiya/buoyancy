@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buoyancy || Where Business & Profitability Converge</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/img/favicon.png" type="img/png">
+
+    <!-- Google Fonts - Montserrat Font -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome CDN link -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <!-- swiper slider -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind Custom Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        customGray: '#434343',
+                        customBlue: '#001B3A',
+                    },
+                    fontFamily: {
+                        montserrat: ['Montserrat', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'custom-inset-1': '20px 20px 50px 0px #CDCDCD inset',
+                        'custom-inset-2': '-20px -20px 50px 0px #FFFFFF inset',
+                    },
+                },
+            },
+        };
+    </script>
+
+</head>
+
+<body class="font-montserrat">
+    <!-- Header -->
+    <header class="py-5">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./assets/img/logo.png" alt="logo" class="h-24">
+                </a>
+            </div>
+            <nav>
+                <ul class="flex text-customGray">
+                    <li>
+                        <a href="index.html" class="block p-5 ">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="block p-5">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block p-5">Services</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block p-5">Products</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block p-5">Career</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block p-5">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block p-5">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="flex items-center">
+                <a href="#" class="text-2xl text-emerald-800 mr-8">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+                <a href="#" class="bg-white rounded-full pl-8 shadow-md inline-block text-center ">
+                    <span class="font-semibold text-emerald-800 text-lg">Get A Quote</span>
+                    <i
+                        class="fa-solid fa-angles-right w-[60px] h-[60px] inline-block shadow-inner leading-[60px] ms-4 rounded-full leading-10 text-emerald-800"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Us Section -->
+    <section class="relative">
+        <div class="relative h-[400px] bg-cover  bg-center"
+            style="background-image: url('assets/img/about_us_img.jpg');">
+            <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-start ">
+                <div class="pl-36 text-white">
+                    <h1 class="text-6xl font-normal">ABOUT US</h1>
+                    <div class="relative w-60 h-[4px] mt-2 bg-gradient-to-r from-white via-white/50 to-transparent">
+                    </div>
+                    <p class="text-lg mt-2">What We Believe</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Company Information Section -->
+    <section class="container mx-auto py-36 md:px-20 bg-white">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+            <!-- Images Section -->
+            <div class="relative">
+                <img src="assets/img/team photo.jpg" alt="Team Photo" class="w-3/4 h-auto rounded-3xl shadow-lg">
+                <img src="assets/img/factory-photo.jpg" alt="Factory Photo"
+                    class="absolute bottom-[-45px] left-[25.5rem] w-[200px] h-[200px] rounded-3xl shadow-lg border-4 border-white">
+            </div>
+            <!-- Text Section -->
+            <div>
+                <h2 class="text-3xl font-bold text-[#001B3A]">Company Information</h2>
+                <p class="text-[#434343] mt-4 ">
+                    BUOYANCY IMPEX PRIVATE LIMITED is an independent, privately held global enterprise on trading and
+                    Exports of Petroleum derivatives like Bitumen, Base oils, Sulphur & Polymers. And Fertilizers.
+                    Established in year 2005, today it is one of the leading petroleum trading company with prominence
+                    and stability in International market. The company is recognized for its world-class transparent
+                    services, experience, reliability & quick delivery time with its operations spread across several
+                    continents. The company’s core management and technical team are built of highly experienced
+                    professionals, with extensive exposure in procurement, material handling, logistics & operations and
+                    documentation.
+                </p>
+                <p class="text-[#434343] mt-4 ">
+                    The company’s core management and technical team are built of highly experienced professionals, with
+                    extensive exposure in procurement, material handling, logistics & operations and documentation.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision, Mission, and Assurance Section -->
+    <section class="py-16">
+        <div class="container mx-auto px-6 py-16 md:px-20">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-stone-50 p-6 rounded-[40px] shadow-lg text-center">
+                    <div
+                        class="flex items-center justify-center w-52 h-52 mx-auto mb-4 bg-[#f3f3f3] shadow-inner rounded-full ">
+                        <i class="fa-solid fa-binoculars text-6xl text-[#135c2e]"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-blaclk">Our Vision</h3>
+                    <p class="text-gray-600 mb-10 p-5">
+                        We believe participating only in the markets, where we make significant contributions. We
+                        believe in focussing on the areas that are truely meaningful and important to us. We innovate in
+                        the way that others cannot. We don’t settle for anything, less than excellence.
+                    </p>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-stone-50 p-6 rounded-[40px] shadow-lg text-center">
+                    <div
+                        class="flex items-center justify-center w-52 h-52 mx-auto mb-4 bg-[#f3f3f3] shadow-inner rounded-full ">
+                        <i class="fa-solid fa-bullseye text-6xl text-[#135c2e]"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-blaclk">Our Mission</h3>
+                    <p class="text-gray-600 mb-10 p-5">
+                        To Provide leadership to position the company at the forefront of the Petroleum & Fertilizer
+                        industry. Develop a strategic plan to advance the company's objectives and to promote revenue,
+                        profitability, Credibility and growth as an organization. Oversee company operations to insure
+                        production efficiency, quality, service, and cost-effective management of resources.
+                    </p>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-stone-50 p-6 rounded-[40px] shadow-lg text-center">
+                    <div
+                        class="flex items-center justify-center w-52 h-52 mx-auto mb-4 bg-[#f3f3f3] shadow-inner rounded-full ">
+                        <i class="fa-solid fa-user text-6xl text-[#135c2e]"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-blaclk">Client Assurance</h3>
+                    <p class="text-gray-600 mb-10 p-5">
+                        Excellent values are so embedded in our company that every client is confident to get the
+                        world-class service in the most transparent manner. We believe in performance with purpose. Our
+                        strategy is to build our company the best-in-class, ensuring better everyday life for our
+                        clients.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- what we have done  -->
+    <section class="pb-16">
+        <div class="relative w-full min-h-screen flex items-center justify-center">
+            <!-- Background Container -->
+            <div class="absolute top-0 left-0 w-full h-full bg-cover" style="background-image: url('assets/img/men_wearing.jpg'); background-position: center -0%; background-size: 110%;">
+                <!-- Half Overlay -->
+                <div class="absolute top-0 left-0 w-1/2 h-full bg-black/70 flex items-center">
+                    <!-- Content inside the overlay -->
+                    <div class="px-20 py-12 text-white">
+                        <h2 class="text-5xl font-bold mb-4">What We Have Done</h2>
+                        <p class="text-lg text-start font-[400]">
+                            Buoyancy Impex Pvt Ltd, has been able to penetrate in the supply chain of upstream to downstream
+                            companies due to its goodwill and professional approach. This network has been levered into
+                            regional organizations directly accountable to customers they serve and completely focused on
+                            delivering superior value and quality product. The company’s remarkable customer base comprises
+                            of Governments, Industrialists, Private, Trading companies, and End Users from sectors such as
+                            Agriculture, Construction, Automobile, Paper & Pulp, Lubricants, Pharmacy, Food, heavy
+                            industries, etc. It has attained this by delivering service at par and offering products at
+                            competitive prices and excellent quality.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-[#22262F] text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-wrap justify-between">
+                <!-- Logo and Description -->
+                <div class="w-full lg:w-1/4 mb-6 lg:mb-0">
+                    <img src="assets/img/logo_white.png" alt="Buoyancy Logo" class="mb-4">
+                    <p class="font-medium text-[18px]">
+                        Buoyancy Impex Pvt Ltd, has been able to penetrate in the supply chain of upstream to downstream
+                        companies due to its goodwill and professional approach.
+                    </p>
+                    <!-- Social Icons -->
+                    <div class="flex space-x-3 mt-4">
+                        <a href="#" class="text-[#135c2e] text-xl hover:text-green-600">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="#" class="text-[#135c2e] text-xl hover:text-blue-500">
+                            <i class="fab fa-telegram-plane"></i>
+                        </a>
+                        <a href="#" class="text-[#135c2e] text-xl hover:text-pink-600">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Pages Links -->
+                <div class="w-full lg:w-1/6 mb-6 lg:mb-0">
+                    <h3 class="text-lg font-semibold text-white mb-4">Pages</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover/:text-white">Home</a></li>
+                        <li><a href="#" class="hover:text-white">About Us</a></li>
+                        <li><a href="#" class="hover:text-white">Services</a></li>
+                        <li><a href="#" class="hover:text-white">Products</a></li>
+                        <li><a href="#" class="hover:text-white">Career</a></li>
+                        <li><a href="#" class="hover:text-white">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services Links -->
+                <div class="w-full lg:w-1/6 mb-6 lg:mb-0">
+                    <h3 class="text-lg font-semibold text-white mb-4">Services</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-white">Packaging Service</a></li>
+                        <li><a href="#" class="hover:text-white">Logistic Service</a></li>
+                        <li><a href="#" class="hover:text-white">Export Service</a></li>
+                        <li><a href="#" class="hover:text-white">Bulk Chartering</a></li>
+                        <li><a href="#" class="hover:text-white">Trading</a></li>
+                        <li><a href="#" class="hover:text-white">Documentation</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Section -->
+                <div class="w-full lg:w-1/4">
+                    <h3 class="text-lg font-semibold text-white mb-4">Contact</h3>
+                    <p class="mb-2">
+                        <i class="fas fa-map-marker-alt text-green-500 mr-2"></i>
+                        “C” Tower, 10th Floor, Hampton Park, Vesu, Surat 395007 Gujarat, India
+                    </p>
+                    <p class="mb-2">
+                        <i class="fas fa-phone text-green-500 mr-2"></i>
+                        +91 99250 53193
+                    </p>
+                    <p>
+                        <i class="fas fa-envelope text-green-500 mr-2"></i>
+                        info@buoyancyimpex.com<br>
+                        buoyancyinc@gmail.com
+                    </p>
+                </div>
+            </div>
+
+            <!-- Bottom Section -->
+            <div class="border-t border-gray-700 mt-8 pt-4 flex flex-wrap justify-between text-sm">
+                <p class="text-[16px] font-[400]">Copyright &copy; Buoyancy 2021 All Rights Reserved | Design & Develop
+                    By Aimstorm.</p>
+                <div class="flex space-x-4">
+                    <a href="#" class="hover:text-white">Privacy Policy</a>
+                    <a href="#" class="hover:text-white">Terms of Use</a>
+                    <a href="#" class="hover:text-white">Sales and Refunds</a>
+                    <a href="#" class="hover:text-white">Legal</a>
+                    <a href="#" class="hover:text-white">Site Map</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
